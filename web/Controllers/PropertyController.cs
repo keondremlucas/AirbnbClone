@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using System.Text.Json;
+using Microsoft.EntityFrameworkCore;
 
 namespace web
 {
@@ -13,7 +14,7 @@ namespace web
     {
         private IPropertyRepository _repository;
 
-        private PropertyController(IPropertyRepository repository)
+        public PropertyController(IPropertyRepository repository)
         {
             _repository = repository;
         }
@@ -34,6 +35,33 @@ namespace web
             var property = await _repository.SearchByIdAsync(id);
             return Ok(property);
         }
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {   
+            var properties = await _repository.GetAllAsync();
+            return Ok(properties);
+        }
+
+         [HttpGet("/owner/{name}")]
+        public async Task<IActionResult> SearchPropertiesByOwner(string name)
+        {  
+            var properties = await _repository.SearchPropertiesByOwnerAsync(name);
+            return Ok(properties);
+        }
+
+        [HttpGet("/book/{guid}")]
+        public async Task<IActionResult> BookAsync(Guid guid)
+        {  
+            await _repository.BookAsync(guid);
+            return Ok("Booked");
+        }
+
+
+
+        
+
 
     }
 }

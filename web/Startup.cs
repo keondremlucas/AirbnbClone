@@ -27,6 +27,7 @@ namespace web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Database>(options => options.UseSqlite(Configuration.GetConnectionString("Default")));
+            services.AddScoped<IPropertyRepository, PropertyRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -37,8 +37,8 @@ namespace web
     // void CreateProperty(Property property);
 
 
-    public async Task BookAsync(Property property, Booking booking)
-    {
+    public async Task BookAsync(Guid guid)
+    {   await _db.where
         await _db.AddAsync(booking);
         property.Bookings.Add(booking);
         await _db.SaveChangesAsync();
