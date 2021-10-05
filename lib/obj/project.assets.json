@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\LTIUser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj",
+      "projectUniqueName": "C:\\Users\\LTIUser\\AirbnbClone\\lib\\lib.csproj",
       "projectName": "lib",
-      "projectPath": "C:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\obj\\",
+      "projectPath": "C:\\Users\\LTIUser\\AirbnbClone\\lib\\lib.csproj",
+      "packagesPath": "C:\\Users\\LTIUser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LTIUser\\AirbnbClone\\lib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\LTIUser\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
