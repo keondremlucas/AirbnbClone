@@ -51,15 +51,37 @@ namespace web
             return Ok(properties);
         }
 
-        [HttpPost("/book")]
+        [HttpPost("/booking")]
         public async Task<IActionResult> CreateBooking(BookingDto bdto)
         {   
-            await _repository.BookAsync(bdto);
+            var property = await _repository.SearchByIdAsync(bdto.PropertyGuid);
+            var booking = new Booking(bdto, property);
+            await _repository.BookingAsync(booking);
             await _repository.SaveAsync();
-
-            return CreatedAtAction("Booked", bdto.PropertyGuid );
+            
+            return CreatedAtAction("GetBooking", new {booking.Id} , booking);
+        }
+    
+        [HttpGet("/booking/{id}")]
+        public async Task<IActionResult> GetBooking(Guid id)
+        {
+            var booking = await _repository.SearchBookingsById(id);
+            return Ok(booking);
         }
 
+         [HttpGet("/search/{keyword}")]
+        public async Task<IActionResult> SearchByKeyword(string keyword)
+        {
+            var results = await _repository.SearchByFields(keyword);
+            return Ok(results);
+        }
+
+        [HttpGet("/weather/{city}")]
+        public async Task<IActionResult> CityWeather(string city)
+        {
+            var results = await _repository.GetWeather(city);
+            return Ok(results);
+        }
     
 
 
