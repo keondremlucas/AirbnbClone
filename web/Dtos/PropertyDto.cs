@@ -10,9 +10,11 @@ namespace web
         [Required]
         public string City { get; set; }
         [Required]
+        [MaxLength(2)]
         public string State { get; set; }
         [Required]
-        public int Zipcode { get; set; }
+        [MaxLength(5)]
+        public string Zipcode { get; set; }
         [Required]
         public string Address { get; set; }
         [Required]

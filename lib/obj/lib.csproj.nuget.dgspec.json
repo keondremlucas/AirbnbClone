@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj": {}
+    "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj": {
+    "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj",
+        "projectUniqueName": "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj",
         "projectName": "lib",
-        "projectPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\obj\\",
+        "projectPath": "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -433,3 +433,5 @@ C:\Users\lucas\Projects\AirbnbClone\test\obj\Debug\net5.0\test.AssemblyInfo.cs
 C:\Users\lucas\Projects\AirbnbClone\test\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
 C:\Users\lucas\Projects\AirbnbClone\test\obj\Debug\net5.0\test.csproj.CopyComplete
 C:\Users\lucas\Projects\AirbnbClone\test\obj\Debug\net5.0\test.genruntimeconfig.cache
+C:\Users\Administrator\Workspace\dotnet\AirbnbClone\test\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Administrator\Workspace\dotnet\AirbnbClone\test\bin\Debug\net5.0\Moq.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/s8xmolW4Mk65O0Z6ahE5mgwmC0q4RGIvjDW7qlorzoWCWsrQbiFnJI0mWVLDFrv8wZv10j1ITZRlG9kPduwXA==",
+  "dgSpecHash": "X16UK+9tnPNJQyTpjdPQnwTynFi9qn1mlOrN+a5L+7y+VRLLaPBj/nvKuRVDVWxwkd5xI6SsS4uPa9E41vtynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj",
+  "projectFilePath": "c:\\Users\\Administrator\\Workspace\\dotnet\\AirbnbClone\\lib\\lib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -10,14 +10,13 @@ namespace web
         public string Owner { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public int Zipcode { get; set; }
+        public string Zipcode { get; set; }
         public string Address { get; set; }
         public decimal Rate { get; set; }
         [JsonIgnore]
         public List<Booking> Bookings { get; set; }
 
         public Property() { }
-
         public Property(PropertyDto propertyDto)
         {
 
