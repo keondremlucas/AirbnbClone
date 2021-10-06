@@ -51,12 +51,16 @@ namespace web
             return Ok(properties);
         }
 
-        [HttpGet("/book/{guid}")]
-        public async Task<IActionResult> BookAsync(Guid guid)
-        {  
-            await _repository.BookAsync(guid);
-            return Ok("Booked");
+        [HttpPost("/book")]
+        public async Task<IActionResult> CreateBooking(BookingDto bdto)
+        {   
+            await _repository.BookAsync(bdto);
+            await _repository.SaveAsync();
+
+            return CreatedAtAction("Booked", bdto.PropertyGuid );
         }
+
+    
 
 
 

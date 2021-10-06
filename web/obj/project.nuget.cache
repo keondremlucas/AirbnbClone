@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iICZhZn7Jn/GOTp3cCCZoEgjN0bycg596Dj10sVgNkfeR+trfJjG2p9Z0H0TsXw2Jb0G7793RoSHzDfNSiJkYQ==",
+  "dgSpecHash": "fyhJUVPThFcXd9l8y2WfOnP4nwABTgUDcKRMOdYtYvXzPpW9Ql+ASP01qKBJWhE/GJ+DscYBaFUVl1hUEcB/YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\AirbnbClone\\web\\web.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\web\\web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

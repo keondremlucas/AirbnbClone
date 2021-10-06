@@ -32,16 +32,13 @@ namespace web
         await _db.SaveChangesAsync();
     }
 
-    // void Book(Property property);
-    // Task<IEnumerable<Property>> SearchPropertiesByOwnerAsync(string owner);
-    // void CreateProperty(Property property);
 
 
-    public async Task BookAsync(Guid guid)
-    {   await _db.where
+    public async Task BookAsync(BookingDto bdto)
+    {   var property = _db.Properties.Where(p => p.Id == bdto.PropertyGuid).First();
+        var booking = new Booking(bdto, property);
         await _db.AddAsync(booking);
         property.Bookings.Add(booking);
-        await _db.SaveChangesAsync();
     }
 
     public async Task<IEnumerable<Property>> SearchPropertiesByOwnerAsync(string owner)

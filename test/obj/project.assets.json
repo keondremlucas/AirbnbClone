@@ -7340,11 +7340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\AirbnbClone\\test\\test.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Projects\\AirbnbClone\\test\\test.csproj",
       "projectName": "test",
-      "projectPath": "C:\\Users\\lucas\\AirbnbClone\\test\\test.csproj",
+      "projectPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\test\\test.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\AirbnbClone\\test\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7359,11 +7359,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lucas\\AirbnbClone\\lib\\lib.csproj": {
-              "projectPath": "C:\\Users\\lucas\\AirbnbClone\\lib\\lib.csproj"
+            "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\lib\\lib.csproj"
             },
-            "C:\\Users\\lucas\\AirbnbClone\\web\\web.csproj": {
-              "projectPath": "C:\\Users\\lucas\\AirbnbClone\\web\\web.csproj"
+            "C:\\Users\\lucas\\Projects\\AirbnbClone\\web\\web.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\web\\web.csproj"
             }
           }
         }

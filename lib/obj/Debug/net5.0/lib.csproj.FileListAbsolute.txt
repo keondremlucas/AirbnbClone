@@ -34,3 +34,15 @@ C:\Users\LTIUser\AirbnbClone\lib\obj\Debug\net5.0\lib.csproj.CoreCompileInputs.c
 C:\Users\LTIUser\AirbnbClone\lib\obj\Debug\net5.0\lib.dll
 C:\Users\LTIUser\AirbnbClone\lib\obj\Debug\net5.0\ref\lib.dll
 C:\Users\LTIUser\AirbnbClone\lib\obj\Debug\net5.0\lib.pdb
+C:\Users\lucas\Projects\AirbnbClone\lib\bin\Debug\net5.0\lib.deps.json
+C:\Users\lucas\Projects\AirbnbClone\lib\bin\Debug\net5.0\lib.dll
+C:\Users\lucas\Projects\AirbnbClone\lib\bin\Debug\net5.0\ref\lib.dll
+C:\Users\lucas\Projects\AirbnbClone\lib\bin\Debug\net5.0\lib.pdb
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.csproj.AssemblyReference.cache
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.AssemblyInfoInputs.cache
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.AssemblyInfo.cs
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.dll
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\ref\lib.dll
+C:\Users\lucas\Projects\AirbnbClone\lib\obj\Debug\net5.0\lib.pdb

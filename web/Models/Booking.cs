@@ -15,9 +15,10 @@ namespace web
 
         public Booking() { }
 
-        public Booking(BookingDto bookingDto)
-        {
+        public Booking(BookingDto bookingDto, Property property)
+        {   
             Id = Guid.NewGuid();
+            this.Property = property;
             this.StartDate = bookingDto.StartDate;
             this.EndDate = bookingDto.EndDate;
             Cost = Property.Rate * (EndDate - StartDate).Days;

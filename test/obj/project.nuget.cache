@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7GFRzc3hhrwOHp2YKWuUoXR9XesQvgttOwMgVahf5/goyHiNv/wp8Ic2C4MJaEaybESxp7MrGoCcOaBZcCT0Ow==",
+  "dgSpecHash": "i5id/NhLIt7tnMNIL2XieX3uAdcsTE7AxLI00k6AiFBthgVOTPcnk15QEq6cqwg2IYad4JMmyxZI1LVE2uv2tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\AirbnbClone\\test\\test.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Projects\\AirbnbClone\\test\\test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\fluentassertions\\6.1.0\\fluentassertions.6.1.0.nupkg.sha512",

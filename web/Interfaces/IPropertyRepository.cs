@@ -12,7 +12,7 @@ namespace web
     Task SaveAsync();
 
     Task<IEnumerable<Property>> SearchPropertiesByOwnerAsync(string owner);
-    Task BookAsync(Property property, Booking booking);
+    Task BookAsync(BookingDto booking);
     //string CheckWeather(Property property);
   }
 }

@@ -9,5 +9,7 @@ namespace web
         public DateTime StartDate { get; set; }
         [Required]
         public DateTime EndDate { get; set; }
+        [Required]
+        public Guid PropertyGuid { get; set; }
     }
 }
